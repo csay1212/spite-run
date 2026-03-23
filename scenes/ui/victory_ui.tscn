@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c4eekn4vlolvn"]
+
+[node name="VictoryUI" type="CanvasLayer"]
+process_mode = 3
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.318761, 0.31876105, 0.31876102, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Wow, you survived. It gets worse."
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Next Level"

@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://bsbgcnxcn1fvf"]
+
+[ext_resource type="Script" uid="uid://6g20dle0ktsg" path="res://scenes/ui/finish_key.gd" id="1_sdsne"]
+[ext_resource type="Texture2D" uid="uid://bx5gjpgw37x7i" path="res://assets/monochrome_tilemap_transparent_packed.png" id="1_v8huy"]
+[ext_resource type="AudioStream" uid="uid://bqwm1lwjchdvi" path="res://assets/brackeys_platformer_assets/brackeys_platformer_assets/sounds/power_up.wav" id="3_ibimk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sdsne"]
+size = Vector2(21, 14)
+
+[node name="FinishKey" type="Area2D"]
+collision_layer = 4
+script = ExtResource("1_sdsne")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+process_mode = 3
+stream = ExtResource("3_ibimk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.5, -0.5)
+scale = Vector2(0.9375, 0.9375)
+texture = ExtResource("1_v8huy")
+hframes = 20
+vframes = 20
+frame = 96
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -3)
+shape = SubResource("RectangleShape2D_sdsne")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
