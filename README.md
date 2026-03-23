@@ -34,5 +34,18 @@ A monochrome 2D precision platformer built in Godot 4.5.1. Navigate through dang
 
 ---
 
-## Project-Game Project: Final Production version (Placeholder)
-*(To be completed for final submission)*
+## Project-Game Project: Final Production version
+
+* **Final Gameplay Video:** [[Insert Final YouTube Link Here]](https://youtu.be/6mdpTu8ff5k)
+* **Final Executable Release:** [[Insert Link to Final Release on GitHub]](https://github.com/csay1212/spite-run/releases/download/v1.0.0/SpiteRun_Final.zip)
+
+### Asset Credits & License
+All assets in the pack have been repackaged and many have been modified by Brackeys.
+**License for all assets:** Creative Commons Zero (CC0)
+
+* **Tilemap (`monochrome_tilemap_packed.png`):** Kenney (kenney.nl) - *1-Bit Platformer Pack*
+* **Sprites (Knight, Slime, Platforms, Coin):** analogStudios_
+* **Sprites (World Tileset, Fruit):** RottingPixels
+* **Sounds:** Brackeys, Asbjørn Thirslund
+* **Music:** Brackeys, Sofia Thirslund
+* **Fonts:** Jayvee Enaguas (HarvettFox96)
